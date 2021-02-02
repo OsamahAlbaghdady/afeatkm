@@ -64,6 +64,11 @@
                                 @endif
                             </div>
                         </div>
+                        <br>
+                        <div class="form-group row" >
+                            <a href="{{route('socialite.facebook.redirect')}}" class="form-control btn-block btn btn-primary ">Facebook</a>
+                            <a href="{{route('socialite.google.redirect')}}" class="form-control btn-block btn btn-danger ">Google</a>
+                        </div>
                     </form>
                 </div>
             </div>
